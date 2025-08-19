@@ -125,6 +125,7 @@ const HomePage = () => {
                   className="bg-gray-600 hover:bg-gray-700"
                   onClick={handleGenerate}
                   disabled={isGenerating}
+                  id="generate-button"
                 >
                   {isGenerating ? (
                     <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
